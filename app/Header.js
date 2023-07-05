@@ -6,9 +6,9 @@ const Header= () =>{
                 <div className="col1">
                     <img src="icon - Logo.svg"/>
                 </div>
-                <div className="col2">Movie Hub</div>
-                <div className="col4">Watch</div>
-                <div className="col5">Add Movie</div>
+                <div className="col2"><b> Movie Hub </b></div>
+                <div className="col4"><b>Watch</b></div>
+                <div className="col5"><b>Add Movie</b></div>
             </div>
             <div className="row3"></div>
         </>

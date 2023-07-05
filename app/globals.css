@@ -1,6 +1,7 @@
 *{
     box-sizing:border-box;
     background-color:#0E0E15;
+    color:#F3F3F3;;
 }
 .margin{
     margin:0px;
@@ -10,11 +11,11 @@
     height:27px;   
 } 
 .row2{
-    border:1px solid white;
+    border:0px solid white;
     height:72px;   
 } 
 .col1{
-    border:1px solid white;
+    border:0px solid white;
     height:72px;
     width:72px;
     margin-left:80px;
@@ -23,7 +24,7 @@
 .col2{
     height:48px;
     float:left;  
-    border:1px solid white;
+    border:0px solid white;
     margin:10px 0px 0px 4px;
     color: var(--text, #F3F3F3);
     font-size: 20px;
@@ -34,9 +35,8 @@
     text-transform: capitalize; 
 }
 .col4{
-    border:1px solid white;
+    border:0px solid white;
     height:30px;
-    width:56px;
     float:left; 
     margin:15px 0px 0px 840px;
     color: var(--text, #F3F3F3);
@@ -48,10 +48,10 @@
     text-transform: capitalize;
 } 
 .col5{
-    border:1px solid white;
+    border:0px solid white;
     height:30px;
     float:right;
-    margin:15px 30px 0px 6px;
+    margin:15px 30px 0px 4px;
     color: var(--text, #F3F3F3);
     font-size: 15px;
     font-family: Kanit;
@@ -61,19 +61,19 @@
     text-transform: capitalize;
 } 
 .row3{
-    border:1px solid red;
+    border-bottom:2px solid red;
     height:28px;   
 } 
 .row4{
-    border:1px solid white;
+    border:0px solid white;
     height:40px;   
 } 
 .row5{
-    border:1px solid white;
+    border:0px solid white;
     height:30px;   
 } 
 .col6{
-    border:1px solid white;
+    border:0px solid white;
     height:30px;
     width:56px;
     float:left;
@@ -87,35 +87,193 @@
     text-transform: capitalize;
 } 
 .row6{
-    border:1px solid white;
+    border:0px solid white;
     height:28px;   
 } 
 .row7{
-    border:1px solid white;
+    border-bottom:2px solid white;
     height:277px; 
-    padding:0px 160px 24px 160px; 
+    margin:0px 160px 24px 160px; 
 }
-.Deatil_conatiner{
-    border:1px solid white;
-    height:48px;
+.Detail_container1{
+    border:0px solid white;
+    height:252px;
     width:495px;
-    margin-right:500px;
     float:right;
-    color: var(--text, #F3F3F3);
-    font-size: 36px;
-    font-family: Kanit;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    text-transform: capitalize; 
-}  
+    margin:0px 220px 0px 4px;
+}
+.detail{
+    border:0px solid white;
+    height:210px;
+    width:495px;
+    float:right;
+}
+.heading1{
+    margin:2px 0px 0px 0px;
+}
+.type1{
+    margin:3px 0px 0px 0px;
+    font-size: 10px;
+}
+.description1{
+        margin:4px 0px 4px 0px;
+        font-size:12px; 
+}
+.head{
+    margin:10px 0px 2px 0px;
+    font-size:15px;
+}
+.button{
+    border:0px solid white;
+    height:42px;
+    width:495px;
+    float:right;
+}
+.Likeicon1{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.rating1{
+    border:0px solid white;
+    height:35px;
+    width:30px;
+    margin:2px;
+    float:left;
+}
+.Dislikeicon1{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.Delete1{
+    float:right;
+    margin:4px;
+}
 .row8{
-    border:1px solid white;
+    border-bottom:2px solid white;
     height:277px; 
-    padding:24px 160px 24px 160px; 
+    margin:0px 160px 24px 160px; 
+}
+.Detail_container2{
+    border:0px solid white;
+    height:226px;
+    width:495px;
+    float:right;
+    margin:0px 220px 0px 4px;
+}
+.detail1{
+    border:0px solid white;
+    height:210px;
+    width:495px;
+    float:right;
+}
+.heading2{
+    margin:2px 0px 0px 0px;
+}
+.type2{
+    margin:3px 0px 0px 0px;
+    font-size: 10px;
+}
+.description2{
+        margin:4px 0px 4px 0px;
+        font-size:12px; 
+}
+.head1{
+    margin:10px 0px 2px 0px;
+    font-size:15px;
+}
+.button1{
+    border:0px solid white;
+    height:42px;
+    width:495px;
+    float:right;
+}
+.Likeicon2{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.rating2{
+    border:0px solid white;
+    height:35px;
+    width:30px;
+    margin:2px;
+    float:left;
+}
+.Dislikeicon2{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.Delete2{
+    float:right;
+    margin:4px; 
 }
 .row9{
-    border:1px solid white;
+    border-bottom:2px solid white;
     height:277px; 
-    padding:24px 160px 24px 160px; 
+    margin:0px 160px 24px 160px; 
 }
+.Detail_container3{
+    border:1px solid white;
+    height:226px;
+    width:495px;
+    float:right;
+    margin:0px 220px 0px 4px;
+}
+.detail2{
+    border:1px solid white;
+    height:210px;
+    width:495px;
+    float:right;
+}
+.heading3{
+    margin:2px 0px 0px 0px;
+}
+.type3{
+    margin:3px 0px 0px 0px;
+    font-size: 10px;
+}
+.description3{
+        margin:4px 0px 4px 0px;
+        font-size:12px; 
+}
+.head2{
+    margin:10px 0px 2px 0px;
+    font-size:15px;
+}
+.button2{
+    border:1px solid white;
+    height:42px;
+    width:495px;
+    float:right;
+}
+.Likeicon3{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.rating3{
+    border:0px solid white;
+    height:35px;
+    width:30px;
+    margin:2px;
+    float:left;
+}
+.Dislikeicon3{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.Delete3{
+    float:right;
+    margin:4px; 
+}
+
