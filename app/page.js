@@ -41,6 +41,10 @@ const Row = () =>{
                     box9=<p className="type3">{movie[2]["movie_year_type2"]}</p>
                     box10=<p className="head2">Description</p>
                     box11=<p className="description3">{movie[2]["Description2"]}</p>
+                    box12=<h1 className="heading4">{movie[3]["movie_name3"]}</h1>
+                    box13=<p className="type4">{movie[3]["movie_year_type3"]}</p>
+                    box14=<p className="head3">Description</p>
+                    box15=<p className="description4">{movie[3]["Description3"]}</p>
                 /> 
        </> 
              

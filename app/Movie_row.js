@@ -54,7 +54,49 @@ const Movie = (props) =>{
             </div>
             <div className="row9">
                 <img src="image 1.jpg" width="200px" height="226px"/> 
-                <div className="Detail_container3"></div>
+                <div className="Detail_container3">
+                    <div className="detail2">
+                        {props.box8}
+                        {props.box9}
+                        {props.box10}
+                        {props.box11}
+                    </div>
+                    <div className="button2">
+                        <div className="Likeicon3">
+                            <img src="Like icon.svg"/>
+                        </div>
+                        <div className="rating3"></div>
+                        <div className="Dislikeicon2">
+                            <img src="Dislike icon.svg"/>
+                        </div>
+                        <div className="Delete3">
+                            <img src="Delete icon.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row10">
+                <img src="3rd Movie image" width="200px" height="226px"/>
+                <div className="Detail_container4">
+                    <div className="detail3">
+                        {props.box12}
+                        {props.box13}
+                        {props.box14}
+                        {props.box15}
+                    </div>
+                    <div className="button3">
+                        <div className="Likeicon4">
+                            <img src="Like icon.svg"/>
+                        </div>
+                        <div className="rating4"></div>
+                        <div className="Dislikeicon2">
+                            <img src="Dislike icon.svg"/>
+                        </div>
+                        <div className="Delete4">
+                            <img src="Delete icon.svg"/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );

@@ -96,15 +96,15 @@
     margin:0px 160px 24px 160px; 
 }
 .Detail_container1{
-    border:0px solid white;
+    border:1px solid white;
     height:252px;
     width:495px;
     float:right;
     margin:0px 220px 0px 4px;
 }
 .detail{
-    border:0px solid white;
-    height:210px;
+    border:1px solid white;
+    height:208px;
     width:495px;
     float:right;
 }
@@ -124,7 +124,7 @@
     font-size:15px;
 }
 .button{
-    border:0px solid white;
+    border:1px solid white;
     height:42px;
     width:495px;
     float:right;
@@ -158,15 +158,15 @@
     margin:0px 160px 24px 160px; 
 }
 .Detail_container2{
-    border:0px solid white;
+    border:1px solid white;
     height:226px;
     width:495px;
     float:right;
     margin:0px 220px 0px 4px;
 }
 .detail1{
-    border:0px solid white;
-    height:210px;
+    border:1px solid white;
+    height:182px;
     width:495px;
     float:right;
 }
@@ -186,7 +186,7 @@
     font-size:15px;
 }
 .button1{
-    border:0px solid white;
+    border:1px solid white;
     height:42px;
     width:495px;
     float:right;
@@ -228,7 +228,7 @@
 }
 .detail2{
     border:1px solid white;
-    height:210px;
+    height:182px;
     width:495px;
     float:right;
 }
@@ -273,6 +273,68 @@
     float:left;
 }
 .Delete3{
+    float:right;
+    margin:4px; 
+}
+.row10{
+    border-bottom:2px solid white;
+    height:277px; 
+    margin:0px 160px 24px 160px; 
+}
+.Detail_container4{
+    border:1px solid white;
+    height:226px;
+    width:495px;
+    float:right;
+    margin:0px 220px 0px 4px;
+}
+.detail3{
+    border:1px solid white;
+    height:182px;
+    width:495px;
+    float:right;
+}
+.heading4{
+    margin:2px 0px 0px 0px;
+}
+.type4{
+    margin:3px 0px 0px 0px;
+    font-size: 10px;
+}
+.description4{
+        margin:4px 0px 4px 0px;
+        font-size:12px; 
+}
+.head3{
+    margin:10px 0px 2px 0px;
+    font-size:15px;
+}
+.button3{
+    border:1px solid white;
+    height:42px;
+    width:495px;
+    float:right;
+}
+.Likeicon4{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.rating4{
+    border:0px solid white;
+    height:35px;
+    width:30px;
+    margin:2px;
+    float:left;
+}
+.Dislikeicon4{
+    height:40px;
+    width:30px;
+    margin:0px;
+    float:left;
+}
+.Delete4{
     float:right;
     margin:4px; 
 }
