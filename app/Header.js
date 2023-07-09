@@ -11,6 +11,11 @@ const Header= () =>{
                 <div className="col5"><b>Add Movie</b></div>
             </div>
             <div className="row3"></div>
+            <div className="row4"></div>
+            <div className="row5">
+                <div className="col6">Watch</div>
+            </div>
+            <div className="row6"></div>
         </>
     );
 };
