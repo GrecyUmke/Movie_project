@@ -23,9 +23,7 @@ const Action_row =()=>{
                       <div className="dislike">
                           <button onClick={dislike} class="imge"><img src="Dislike icon.svg" /></button> 
                       </div>
-                      <div className="delete">
-                          <button><img src="Delete icon.svg"/></button>  
-                      </div>
+     
                   </div>
              </>
     )
