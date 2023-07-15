@@ -80,7 +80,6 @@ const Page = () =>{
                 <Header/>
                 {movie.map((item)=>(
                     <Movie_row
-                    	key={item.id}
                         data={item}
                         onDelete={()=>handleDelete(item.id)}
                     />     
